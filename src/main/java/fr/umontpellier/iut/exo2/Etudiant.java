@@ -29,6 +29,7 @@ public class Etudiant {
                 this.mail + " / " + this.adrpostale;
     }
 
+
     public void setNom(String prenom, String nom) {
         this.nom = nom;
         this.prenom = prenom;
