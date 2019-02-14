@@ -1,4 +1,4 @@
-package fr.umontpellier.iut.exo1;
+package fr.umontpellier.iut.exo2;
 
 import fr.umontpellier.iut.exo1.Etudiant;
 
@@ -18,7 +18,7 @@ public class Departement {
 
     @Override
     public String toString() {
-        String s = "\n=============== [" + this.specialite + " - " + this.adrpostale + "] ===============" + "\n" + "\n";
+        String s = "\n=============== [" + this.specialite + " - " + this.adrpostale +"] ===============" + "\n" + "\n";
         int taille = this.listEtudiant.size();
         for(int i = 0; i < taille; i++) {
             s += i+1 + " - " + this.listEtudiant.get(i).toString() + "\n";

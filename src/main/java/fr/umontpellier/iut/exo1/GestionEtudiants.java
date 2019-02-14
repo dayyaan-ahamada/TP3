@@ -1,4 +1,4 @@
-package fr.umontpellier.iut.exo2;
+package fr.umontpellier.iut.exo1;
 
 import fr.umontpellier.iut.exo1.Etudiant;
 
